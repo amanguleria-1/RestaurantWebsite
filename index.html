@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Responsive Food Website</title>
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="Search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our special dish</span>
+              <h3>Spicy Noodles</h3>
+              <p>
+                Spicy noodle dish: Bold, aromatic blend, succulent noodles,
+                delivering a memorable, satisfying experience
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/noodles.jpg" alt="imagwsf" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our special dish</span>
+              <h3>Fried Chicken</h3>
+              <p>
+                Crispy, succulent fried chicken: golden perfection, savory, and
+                irresistibly seasoned for pure indulgence
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/FriedChicken.jpg" alt="imagwsf" />
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our special dish</span>
+              <h3>Sizzling Pizza</h3>
+              <p>
+                Sizzling hot pizza: bubbling cheese, aromatic toppings, and a
+                delectable, mouthwatering crust.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image">
+              <img src="images/pizza.png" alt="imagwsf" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dishes Section starts-->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our Dishes</h3>
+      <h1 class="heading">Popular Dishes</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/burger.png" class="box-image" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₹300</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/nuggets.png" class="box-image" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₹300</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/roastedChicken.png" class="box-image" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₹300</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/brownie.png" class="box-image" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₹300</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/salad.png" class="box-image" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₹300</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images/pizza2.png" class="box-image" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>₹300</span>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
+    </section>
+    <!-- Dishes Section ends-->
+
+    <!-- About Section Starts -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">About Us</h3>
+      <h1 class="heading">Why Choose Us?</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/expensiveSalad.png" />
+        </div>
+        <div class="content">
+          <h3>Best food in the town</h3>
+          <p>
+            Indulge in culinary excellence at our restaurant, where passion
+            meets flavor. We craft memorable dining experiences with fresh,
+            locally sourced ingredients, delivering a symphony of tastes in
+            every dish.
+          </p>
+          <p>
+            Savor a diverse menu showcasing culinary artistry. Our welcoming
+            ambiance and attentive service ensure delightful moments, making us
+            the preferred destination for discerning palates.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Free Delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-ruppee-sign"></i>
+              <span>Easy Payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <!-- Menu Section Starts -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">Our Menu</h3>
+      <h1 class="heading">Today's Special</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-pizza.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Savor irresistible flavors, tantalizing your taste buds with
+              delectable culinary delights.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-burger.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Juicy beef, melted cheese, fresh veggies—our burgers redefine
+              mouthwatering perfection.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-noodles.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Slurp-worthy noodles adorned with savory sauces and vibrant, crisp
+              vegetables.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-chicken.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Tender, succulent chicken, expertly seasoned and grilled to
+              perfection—pure culinary bliss.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-momo.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Delight in momos: steamed pockets of savory goodness, a taste
+              symphony.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-salad.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Crisp, refreshing greens harmonize with vibrant ingredients—a
+              symphony of health.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-sandwich.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Sweet indulgence: honey-kissed layers embrace in a delectable,
+              wholesome sandwich.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-indian.jpg" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious Food</h3>
+            <p>
+              Savor the richness of kofta: flavorful spiced balls, a culinary
+              masterpiece.
+            </p>
+            <a href="#" class="btn">Add to Cart</a>
+            <span class="price">₹300</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section Ends -->
+
+    <!-- Review Section Starts -->
+    <section class="review" id="review">
+      <h3 class="sub-heading">Customer's Review</h3>
+      <h1 class="heading">What they say</h1>
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/user1.png" class="image" />
+              <div class="user-info">
+                <h3>John Doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Experience culinary excellence in our restaurant, where flavors
+              dance and memories linger in every meticulously crafted dish.
+              Welcome to a gastronomic journey like no other.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/user2.jpg" class="image" />
+              <div class="user-info">
+                <h3>John Doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Embark on a gastronomic adventure at our restaurant, where passion
+              meets palate. Indulge in exquisite flavors, impeccable service,
+              and a warm ambiance. Discover dining elevated to an art form.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/user3.jpg" class="image" />
+              <div class="user-info">
+                <h3>John Doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Embark on a gastronomic adventure at our restaurant, where passion
+              meets palate. Indulge in exquisite flavors, impeccable service,
+              and a warm ambiance. Discover dining elevated to an art form.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review Section Ends -->
+
+    <!-- Order Section Starts -->
+    <section class="order" id="order">
+      <h3 class="sub-heading">Order Now</h3>
+      <h1 class="heading">Free And Fast</h1>
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Name</span>
+            <input type="text" placeholder="Enter Your Name" />
+          </div>
+          <div class="input">
+            <span>Your Phone no.</span>
+            <input type="number" placeholder="Enter Your Phone No" />
+          </div>
+          <div class="input">
+            <span>Your Order</span>
+            <input type="text" placeholder="Enter Your Food name" />
+          </div>
+          <div class="input">
+            <span>Additional Food</span>
+            <input type="number" placeholder="Sides" />
+          </div>
+          <div class="input">
+            <span>Date and Time</span>
+            <input type="datetime-local" />
+          </div>
+          <div class="input">
+            <span>Order quantity</span>
+            <input type="text" />
+          </div>
+          <div class="input">
+            <span>Your address</span>
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Enter Your Address"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>Your Message</span>
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Enter Your Message"
+            ></textarea>
+          </div>
+        </div>
+        <input type="submit" value="Order Now" class="btn" />
+      </form>
+    </section>
+    <!-- Order Section Ends -->
+
+    <!-- Footer Section Starts -->
+    <section class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Locations</h3>
+          <a href="#">India</a>
+          <a href="#">Japan</a>
+          <a href="#">Russia</a>
+          <a href="#">Australia</a>
+          <a href="#">USA</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#">home</a>
+          <a href="#">dishes</a>
+          <a href="#">about</a>
+          <a href="#">menu</a>
+          <a href="#">review</a>
+          <a href="#">order</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact Info</h3>
+          <a href="#">+7895212111</a>
+          <a href="#">amanguleria911@gmail.com</a>
+          <a href="#">Dehradun, Uttarakhand, India</a>
+        </div>
+
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="credit">Copyright @2024 by <span>Aman</span></div>
+    </section>
+    <!-- Footer Section Ends -->
+
+    <!-- Swiper File -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JavaScript File link -->
+    <script src="index.js"></script>
+  </body>
+</html>
